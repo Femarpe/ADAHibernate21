@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver.class">com.mysql.jdbc.Driver</property>
+
+        <property name="connection.url">jdbc:mysql://localhost:3307/ph?serverTimezone=UTC</property>
+
+        <property name="connection.username">root</property>
+
+        <property name="connection.password">root</property>
+
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <property name="hibernate.show_sql"></property>
+
+        <mapping class="test.Spartan"></mapping>
+
+    </session-factory>
+</hibernate-configuration>
