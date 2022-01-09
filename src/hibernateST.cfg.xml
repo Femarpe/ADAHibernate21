@@ -3,7 +3,7 @@
     <session-factory>
         <property name="connection.driver.class">com.mysql.jdbc.Driver</property>
 
-        <property name="connection.url">jdbc:mysql://localhost:3307/testdb?serverTimezone=UTC</property>
+        <property name="connection.url">jdbc:mysql://localhost:3307/ph?serverTimezone=UTC</property>
 
         <property name="connection.username">root</property>
 
@@ -13,9 +13,7 @@
 
         <property name="hibernate.show_sql"></property>
 
-        <mapping class="domain.Tramite"></mapping>
-
-        <mapping class="domain.Presupuesto"></mapping>
+        <mapping class="testS.Spartan"></mapping>
 
     </session-factory>
 </hibernate-configuration>

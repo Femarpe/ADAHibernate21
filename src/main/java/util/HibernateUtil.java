@@ -25,7 +25,7 @@ public class HibernateUtil {
 
             return metadata.getSessionFactoryBuilder().build();
         } catch (Throwable ex) {
-            System.err.println("inictial SessionFactor" + ex);
+            System.err.println("inictial SessionFactor " + ex);
             throw new ExceptionInInitializerError(ex);
         }
     }
