@@ -1,4 +1,4 @@
-package app;
+package PracticaU3.app;
 
 import domain.Presupuesto;
 import domain.Tramite;
@@ -85,7 +85,7 @@ public class Adaptador {
         System.out.println("introduzca la id del tramite a Editar");
         int id = 0;
         try {
-             id = Integer.parseInt(Util.sc.nextLine());
+            id = Integer.parseInt(Util.sc.nextLine());
         } catch (Exception e) {
             System.err.println("Solo se aceptan valores numericos");
 

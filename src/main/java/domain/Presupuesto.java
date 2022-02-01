@@ -1,5 +1,7 @@
 package domain;
 
+import domain.Tramite;
+
 import javax.persistence.*;
 
 @Entity

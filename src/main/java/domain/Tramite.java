@@ -16,9 +16,9 @@ public class Tramite {
     private Timestamp fechaTramite;
 
     /**
-    @OneToOne(mappedBy = "Tramite", cascade = CascadeType.REMOVE)
-    private Presupuesto presupuesto;
-    m*/
+     @OneToOne(mappedBy = "Tramite", cascade = CascadeType.REMOVE)
+     private Presupuesto presupuesto;
+     m*/
     public Tramite() {
     }
 

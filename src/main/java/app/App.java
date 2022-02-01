@@ -11,7 +11,7 @@ public class App {
         System.out.println("Base de datos inmoviliaria");
 
         do {
-            System.out.println("\n\n¿que accion desea realizar? \n(1)consultar datos\n(2)añadir transaccion\n(5)salir");
+            System.out.println("\n\n¿que accion desea realizar? \n(1)consultar datos\n(2)añadir transaccion\n(3)Actualizar\n(4)Borrar\n(5)salir");
             eleccion = Util.sc.nextLine();
 
             if (eleccion.equals("1")) {
@@ -22,10 +22,10 @@ public class App {
                 adaptador.añadir();
             } else if (eleccion.equals("3")) {
                 System.out.println("Actualizar");
-                adaptador.añadir();
+                adaptador.modificar();
             } else if (eleccion.equals("4")) {
                 System.out.println("Eliminar");
-                adaptador.añadir();
+                adaptador.eliminar();
             } else if (eleccion.equals("5")) {
                 System.out.println("saliendo");
                 salir = true;
